@@ -2,6 +2,13 @@
 
 一份教你快速上手 React Native 的指南
 
+## 进度
+
+| English     | Chinese  |      是否完成      |
+| ----------- | -------- | :----------------: |
+| Intro       | 介绍     | :white_check_mark: |
+| Environment | 环境配置 |
+
 ## 安装
 
 ```bash
