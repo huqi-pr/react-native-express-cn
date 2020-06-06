@@ -66,7 +66,7 @@ export default class extends React.Component {
         )}
         {nextSection && (
           <Link href={nextSection.slug}>
-            <NextItem>Next - {nextSection.title}</NextItem>
+            <NextItem>下一节 - {nextSection.title}</NextItem>
           </Link>
         )}
       </Container>

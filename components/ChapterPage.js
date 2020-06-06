@@ -185,12 +185,10 @@ class ChapterPage extends React.Component {
               </MenuButtonContainer>
               {isIntroduction ? (
                 <Page
-                  title={'React Native Express'}
-                  subtitle={
-                    'Learn React Native, the cross-platform app framework'
-                  }
+                  title={'2020 快速上手 React Native'}
+                  subtitle={'学习跨平台应用框架 React Native'}
                   footer={footer}
-                  bannerHeight={560}
+                  bannerHeight={560}React Native是一个用于构建跨平台应用的框架
                   showLogo
                 >
                   {contents}

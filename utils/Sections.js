@@ -12,13 +12,13 @@ let sections = [
   {
     hidden: true,
     depth: 0,
-    title: 'Learning React Native',
+    title: '学习React Native',
     slug: '',
     componentName: 'Introduction',
   },
   {
     depth: 0,
-    title: 'Environment',
+    title: '环境设置',
     slug: 'environment',
     componentName: 'Environment',
   },

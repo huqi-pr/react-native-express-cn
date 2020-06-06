@@ -14,7 +14,7 @@
 
 ## 翻译规范
 
-> ⚠️ React Native 并没有中文文档，也没有提供翻译规范。专有名词部分参考[React 中英文对照表](https://github.com/reactjs/zh-hans.reactjs.org/issues/2)，但是更倾向于不翻译
+> ⚠️ React Native 并没有中文文档，也没有提供翻译规范。术语，专有名词等等部分参考[React 中英文对照表](https://github.com/reactjs/zh-hans.reactjs.org/issues/2)，但是更倾向于不翻译
 
 <br/>
 
@@ -23,7 +23,7 @@
 |        English        |         Chinese          |      是否完成      |
 | :-------------------: | :----------------------: | :----------------: |
 |         Intro         |           介绍           | :white_check_mark: |
-|      Environment      |         环境配置         |
+|      Environment      |         环境配置         |   :construction:   |
 |      Quick Start      |         快速入门         |
 |   Modern JavaScript   |     现代 Javascript      |
 |        ES2015         |          ES2015          |
