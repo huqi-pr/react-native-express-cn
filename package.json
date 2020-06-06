@@ -30,6 +30,8 @@
     "build": "next build",
     "start": "next start -p $PORT",
     "format": "prettier --write '**/*.js'",
+    "git": "git add . && git commit -m",
+    "postgit": "git pull && git push && git status",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {

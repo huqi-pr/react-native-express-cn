@@ -1,26 +1,26 @@
-## About
+## 关于
 
-A guide and reference to help people get started with React Native.
+一份教你快速上手 React Native 的指南
 
-## Installation
+## 安装
 
 ```bash
 yarn
 ```
 
-OR
+或者
 
 ```bash
 npm install
 ```
 
-## Running Dev Server
+## 本地 serve
 
 ```bash
 npm run dev
 ```
 
-## Building and Running Production Server
+## 打包 & serve
 
 ```bash
 npm run build
@@ -29,16 +29,13 @@ npm run start
 
 ## Demo
 
-The production version of this app is running [here](http://www.reactnativeexpress.com).
+在线版本，包含交互式例子
 
-## Contributing
+## 贡献代码
 
-Please contribute!
+欢迎 PR 或者任何 issue
 
-## License
+## 翻译 & 作者
 
-MIT, Copyright (c) 2016 Devin Abbott
-
-## Author
-
-Devin Abbott, [@dvnabbott](http://twitter.com/dvnabbott)
+作者：Devin Abbott, [@dvnabbott](https://github.com/dabbott) <br/>
+翻译：Gavin Chan, [@cnscorpions](https://github.com/cnscorpions)
