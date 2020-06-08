@@ -33,6 +33,7 @@
     "format": "prettier --write '**/*.js'",
     "git": "git add . && git commit -m",
     "postgit": "git pull && git push && git status",
+    "deploy": "next build && next export && git add out/ && git commit -m \"Deploy gh-pages\" && git subtree push --prefix out origin gh-pages",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
