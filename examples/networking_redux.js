@@ -92,7 +92,7 @@ const mapStateToProps = (state) => ({
 
 class App extends Component {
 
-  componentWillMount() {
+  componentDidMount() {
     const {dispatch} = this.props
 
     dispatch(actionCreators.fetchPosts())

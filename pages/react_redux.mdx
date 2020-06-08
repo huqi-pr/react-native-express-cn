@@ -4,7 +4,7 @@ import example from '../examples/react_redux'
 
 Redux has official bindings for React in a package called [React Redux](http://redux.js.org/docs/basics/UsageWithReact.html).
 
-In the previous examples, we imported the `store` object directly in our container component's file. We then started listening to changes in `componentWillMount` with `store.subscribe()`, and we made sure to unsubscribe in `componentWillUnmount`. We dispatched actions with `store.dispatch(action)`.
+In the previous examples, we imported the `store` object directly in our container component's file. We then started listening to changes in `componentDidMount` with `store.subscribe()`, and we made sure to unsubscribe in `componentWillUnmount`. We dispatched actions with `store.dispatch(action)`.
 
 There are a few issues with using Redux this way:
 

@@ -62,7 +62,7 @@ export default class App extends React.Component {
 
   state = {}
 
-  componentWillMount() {
+  componentDidMount() {
     const {todos} = store.getState()
     this.setState({todos})
 

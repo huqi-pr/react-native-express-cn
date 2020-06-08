@@ -12,7 +12,7 @@ export default class StarCount extends React.Component {
     count: null,
   }
 
-  componentWillMount() {
+  componentDidMount() {
     const { user, repo } = this.props
     const cacheKey = `${user}/${repo}`
 

@@ -9,7 +9,7 @@ Let's look at each phase of the component lifecycle.
 - `constructor(object props)`<br/>
   The component class is instantiated. The parameters to the constructor are the element's initial `props`, as specified by the parent element. You can optionally specify an initial state for the element by assigning an object to `this.state`. At this point, no native UI has been rendered yet for this element.
 
-- `componentWillMount()`<br/>
+- `componentDidMount()`<br/>
   This method is invoked only once, before rendering occurs for the first time. At this point, there is still no native UI rendered for this element.
 
 - `render() -> React Element`<br/>
