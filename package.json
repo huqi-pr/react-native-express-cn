@@ -4,6 +4,9 @@
   "version": "1.0.0",
   "author": "Devin Abbott <devinabbott@gmail.com> (http://github.com/dabbott)",
   "main": "dist/server/index.js",
+  "engines": {
+    "node": "10"
+  },
   "dependencies": {
     "@babel/core": "^7.10.2",
     "@mdx-js/mdx": "^1.0.20",
