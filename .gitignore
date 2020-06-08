@@ -10,3 +10,6 @@ yarn-error.log
 
 # Editors
 .vscode
+
+# deploy next to github pages
+out
