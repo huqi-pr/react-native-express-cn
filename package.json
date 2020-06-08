@@ -38,7 +38,7 @@
     "dev:client": "next src/client",
     "dev:server": "babel src/server --out-dir dist/server --source-maps --watch",
     "dev": "npm run dev:client & npm run dev:server",
-    "build:client": "next build src/client",
+    "build:client": "next build src/client && cp src/client/.next/* dist/client",
     "build:server": "babel src/server --out-dir dist/server --source-maps",
     "build": "npm run build:client && npm run build:server",
     "preserve": "npm run build",
