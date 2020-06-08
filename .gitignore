@@ -7,9 +7,7 @@ yarn-error.log
 # Build directory
 /public
 .DS_Store
+dist
 
 # Editors
 .vscode
-
-# deploy next to github pages
-out
